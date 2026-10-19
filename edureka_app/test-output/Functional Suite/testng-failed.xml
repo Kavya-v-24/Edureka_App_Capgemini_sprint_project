@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Functional Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Functional Test(failed)">
+    <groups>
+      <run>
+        <include name="fn"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="edureka_app_all_course.AllCourseModule">
+        <methods>
+          <include name="TC_AC_07"/>
+          <include name="TC_AC_28"/>
+          <include name="launchBrowser"/>
+          <include name="TC_AC_24"/>
+          <include name="TC_AC_13"/>
+          <include name="TC_AC_12"/>
+          <include name="closeBrowser"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- edureka_app_all_course.AllCourseModule -->
+      <class name="edureka_app_login.LoginModule">
+        <methods>
+          <include name="TC_LOGIN_03"/>
+          <include name="TC_LOGIN_02"/>
+          <include name="launchBrowser"/>
+          <include name="TC_LOGIN_05"/>
+          <include name="TC_LOGIN_15"/>
+          <include name="TC_LOGIN_04"/>
+          <include name="setUp"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- edureka_app_login.LoginModule -->
+    </classes>
+  </test> <!-- Functional Test(failed) -->
+</suite> <!-- Failed suite [Functional Suite] -->

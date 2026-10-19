@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Integration Suite">
+  <test  name="Integration Test">
+  <groups>
+  <run>
+  <include name="int"/>
+  </run>
+  </groups>
+    <classes>
+      <class name="edureka_app_Artificial_inteligence.AIModule"/>
+      <class name="edureka_app_login.LoginModule"/>
+      <class name="edureka_app_all_course.AllCourseModule"/>
+      <class name="edureka_app_OnlineDoctoratePrograms.OnlineDoctorateProgramsModule"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
