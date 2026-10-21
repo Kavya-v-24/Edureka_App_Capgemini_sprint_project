@@ -201,7 +201,7 @@ public class OnlineDoctorateProgramsModule extends Baseclass {
 	}
 	
 	
-	@Test(groups={"fn","int"})
+	@Test(groups="int")
 	public void TC_ODP_13() throws EncryptedDocumentException, IOException
 	{
 		
@@ -212,7 +212,7 @@ public class OnlineDoctorateProgramsModule extends Baseclass {
 	}
 	
 
-	@Test(groups={"int","sys"})
+	@Test(groups="sys")
 	public void TC_ODP_17() throws EncryptedDocumentException, IOException
 	{
 		
@@ -231,7 +231,7 @@ public class OnlineDoctorateProgramsModule extends Baseclass {
 	}
 	
 	
-	@Test(groups= {"int","neg"})
+	@Test(groups= "neg")
 	public void TC_ODP_19() throws EncryptedDocumentException, IOException, InterruptedException
 	{
 		
@@ -253,7 +253,7 @@ public class OnlineDoctorateProgramsModule extends Baseclass {
 		
 	}
 	
-	@Test(groups= {"int","sys"})
+	@Test(groups= "sys")
 	public void TC_ODP_20() throws EncryptedDocumentException, IOException
 	{
 		
