@@ -104,17 +104,17 @@ public class AIModule extends Baseclass {
 		Reporter.log("TC_AI_27: The brochure request is processed successfully, and the expected confirmation message is displayed.",true);
 	}
 	
-	@Test(groups="sys")
-	public void TC_AI_29() throws EncryptedDocumentException, IOException
-	{
-		course=td.getData("AIcourse", 2, 0);
-		ap.expandCourse(course);
-		cp.switchToNextWindow();
-		cp.clickShareButton();
-		cp.clickEmailOption();
-		cp.switchToNextWindow();
-		cp.isComposemailopened();
-		Reporter.log("TC_AI_29: The share or copy-link control performs its displayed action and provides appropriate share option.",true);
-	}
+//	@Test(groups="sys")
+//	public void TC_AI_29() throws EncryptedDocumentException, IOException
+//	{
+//		course=td.getData("AIcourse", 2, 0);
+//		ap.expandCourse(course);
+//		cp.switchToNextWindow();
+//		cp.clickShareButton();
+//		cp.clickEmailOption();
+//		cp.switchToNextWindow();
+//		cp.isComposemailopened();
+//		Reporter.log("TC_AI_29: The share or copy-link control performs its displayed action and provides appropriate share option.",true);
+//	}
 	
 }

@@ -124,6 +124,8 @@ ExplicitWait wait;
     
     public void clickEmailOption()
     {
+    	wait.waitForElementToBeVisible(emailoption);
+    	wait.waitForElementToBeClickable(emailoption);
     	emailoption.click();
     }
     public void isComposemailopened()

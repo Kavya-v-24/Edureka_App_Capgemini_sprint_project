@@ -143,6 +143,7 @@ public class HomePage {
 	public void isResetpwdopened()
 	{
 		WebElement resetpage = driver.findElement(By.xpath("//div[@class=\"modal-content resetpassword_modal_content__3EAm6\"]"));
+		wait.waitForElementToBeVisible(resetpage);
 		Assert.assertTrue(resetpage.isDisplayed(),"verification of forget password is failed.");
 	}
 	
