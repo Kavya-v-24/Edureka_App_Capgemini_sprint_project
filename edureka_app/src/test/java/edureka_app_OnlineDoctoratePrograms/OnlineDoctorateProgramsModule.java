@@ -45,7 +45,7 @@ public class OnlineDoctorateProgramsModule extends Baseclass {
 	    Reporter.log("TC_ODP_01: The Online Doctorate Programs page loads successfully, and the heading and available program cards are displayed.",true);	
 	}
 	
-	@Test(groups="fun")
+	@Test(groups="fn")
 	public void TC_ODP_02() throws EncryptedDocumentException, IOException
 	{
 		
@@ -95,11 +95,11 @@ public class OnlineDoctorateProgramsModule extends Baseclass {
 		cp.clickonVideoButton();
 		cp.verifyVideoModal();
 		cp.verifyVideoUrl();
-		Reporter.log("TC_ODP_05:The correct Online Doctorate Program course video opens errors.",true);
+		Reporter.log("TC_ODP_05:The correct Online Doctorate Program course video opens.",true);
 
 }
 
-	@Test(groups= {"int","sys","fn"})
+	@Test(groups="sys")
 	public void TC_ODP_06() throws EncryptedDocumentException, IOException
 	{
 		
@@ -170,7 +170,7 @@ public class OnlineDoctorateProgramsModule extends Baseclass {
 		Reporter.log("TC_ODP_09: The available accreditation logos  are displayed correctly without broken images or layout issues.",true);
 	}
 	
-	@Test(groups={"int","sys"})
+	@Test(groups="sys")
 	public void TC_ODP_11() throws EncryptedDocumentException, IOException
 	{
 		course=td.getData("course", 6, 0);
@@ -187,7 +187,7 @@ public class OnlineDoctorateProgramsModule extends Baseclass {
 	
 	
 	
-	@Test(groups={"fn","int"})
+	@Test(groups="int")
 	public void TC_ODP_12() throws EncryptedDocumentException, IOException
 	{
 		

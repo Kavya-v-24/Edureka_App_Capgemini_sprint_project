@@ -64,7 +64,7 @@ public class AIModule extends Baseclass {
 		
 	}
 	
-	@Test(groups={"sys","int","fn"})
+	@Test(groups="sys")
 	public void TC_AI_12() throws EncryptedDocumentException, IOException
 	{
 		course=td.getData("AIcourse", 3, 0);
@@ -89,7 +89,7 @@ public class AIModule extends Baseclass {
 		Reporter.log("TC_AI_13: User returns to the AI listing successfully.",true);
 	}
 
-	@Test(groups={"sys","int"})
+	@Test(groups="sys")
 	public void TC_AI_27() throws EncryptedDocumentException, IOException
 	{
 		course=td.getData("AIcourse", 1, 0);
@@ -104,7 +104,7 @@ public class AIModule extends Baseclass {
 		Reporter.log("TC_AI_27: The brochure request is processed successfully, and the expected confirmation message is displayed.",true);
 	}
 	
-	@Test(groups={"int","sys"})
+	@Test(groups="sys")
 	public void TC_AI_29() throws EncryptedDocumentException, IOException
 	{
 		course=td.getData("AIcourse", 2, 0);

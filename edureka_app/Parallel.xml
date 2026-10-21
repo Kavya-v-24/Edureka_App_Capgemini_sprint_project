@@ -4,7 +4,6 @@
   <test thread-count="5" name="Parallel Test">
     <classes>
       <class name="edureka_app_Artificial_inteligence.AIModule"/>
-      <class name="edureka_app_OnlineDoctoratePrograms.OnlineDoctorateProgramsModule"/>
       <class name="edureka_app_login.LoginModule"/>
       <class name="edureka_app_all_course.AllCourseModule"/>
     </classes>

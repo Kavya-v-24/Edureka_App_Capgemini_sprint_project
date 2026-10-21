@@ -13,6 +13,7 @@
           <include name="launchBrowser"/>
           <include name="TC_AI_01"/>
           <include name="closeBrowser"/>
+          <include name="setUp"/>
         </methods>
       </class> <!-- edureka_app_Artificial_inteligence.AIModule -->
       <class name="edureka_app_all_course.AllCourseModule">
@@ -20,17 +21,20 @@
           <include name="TC_AC_03"/>
           <include name="launchBrowser"/>
           <include name="closeBrowser"/>
+          <include name="setUp"/>
         </methods>
       </class> <!-- edureka_app_all_course.AllCourseModule -->
       <class name="edureka_app_login.LoginModule">
         <methods>
           <include name="launchBrowser"/>
+          <include name="setUp"/>
           <include name="TC_LOGIN_01"/>
           <include name="closeBrowser"/>
         </methods>
       </class> <!-- edureka_app_login.LoginModule -->
       <class name="edureka_app_OnlineDoctoratePrograms.OnlineDoctorateProgramsModule">
         <methods>
+          <include name="setupPageObjects"/>
           <include name="TC_ODP_01"/>
           <include name="launchBrowser"/>
           <include name="closeBrowser"/>

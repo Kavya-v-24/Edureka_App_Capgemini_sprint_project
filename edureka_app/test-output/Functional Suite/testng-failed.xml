@@ -8,30 +8,19 @@
       </run>
     </groups>
     <classes>
-      <class name="edureka_app_all_course.AllCourseModule">
+      <class name="edureka_app_OnlineDoctoratePrograms.OnlineDoctorateProgramsModule">
         <methods>
-          <include name="TC_AC_07"/>
-          <include name="TC_AC_28"/>
+          <include name="setupPageObjects"/>
+          <include name="TC_ODP_12"/>
           <include name="launchBrowser"/>
-          <include name="TC_AC_24"/>
-          <include name="TC_AC_13"/>
-          <include name="TC_AC_12"/>
+          <include name="TC_ODP_13"/>
+          <include name="TC_ODP_07"/>
+          <include name="TC_ODP_06"/>
+          <include name="TC_ODP_09"/>
           <include name="closeBrowser"/>
-          <include name="setUp"/>
+          <include name="TC_ODP_08"/>
         </methods>
-      </class> <!-- edureka_app_all_course.AllCourseModule -->
-      <class name="edureka_app_login.LoginModule">
-        <methods>
-          <include name="TC_LOGIN_03"/>
-          <include name="TC_LOGIN_02"/>
-          <include name="launchBrowser"/>
-          <include name="TC_LOGIN_05"/>
-          <include name="TC_LOGIN_15"/>
-          <include name="TC_LOGIN_04"/>
-          <include name="setUp"/>
-          <include name="closeBrowser"/>
-        </methods>
-      </class> <!-- edureka_app_login.LoginModule -->
+      </class> <!-- edureka_app_OnlineDoctoratePrograms.OnlineDoctorateProgramsModule -->
     </classes>
   </test> <!-- Functional Test(failed) -->
 </suite> <!-- Failed suite [Functional Suite] -->

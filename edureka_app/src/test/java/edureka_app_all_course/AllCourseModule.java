@@ -95,7 +95,7 @@ public class AllCourseModule extends Baseclass{
 		
 	}
 	
-	@Test(groups={"neg","fn","int"})
+	@Test(groups="neg")
 	public void TC_AC_24()
 	{
 		ac.clickSearchField();
@@ -106,7 +106,7 @@ public class AllCourseModule extends Baseclass{
 	}
 	
 	
-	@Test(groups= {"int","sys","fn"})
+	@Test(groups= "sys")
 	public void TC_AC_28()
 	{
 		List<String> page1=ac.getCourseTitles();

@@ -39,7 +39,7 @@ public class LoginModule extends Baseclass {
 		Reporter.log("TC_LOGIN_01: Login form/page is displayed and usable.",true);
 	}
 	
-	@Test(priority = 7,groups={"fn","int"})
+	@Test(priority = 7,groups="int")
 	public void TC_LOGIN_02() throws EncryptedDocumentException, IOException, InterruptedException
 	{
 		hp.clickLogin();
@@ -53,7 +53,7 @@ public class LoginModule extends Baseclass {
 	}
 	
 	
-	@Test(groups={"neg","fn"})
+	@Test(groups="neg")
 	public void TC_LOGIN_03() throws EncryptedDocumentException, IOException
 	{
 		hp.clickLogin();
@@ -90,7 +90,7 @@ public class LoginModule extends Baseclass {
 		
 	}
 	
-	@Test(groups={"fun","int"})
+	@Test(groups="int")
 	public void TC_LOGIN_09() 
 	{
 		hp.clickLogin();
@@ -99,7 +99,7 @@ public class LoginModule extends Baseclass {
 		Reporter.log("TC_LOGIN_09: Password recovery page/form is displayed.",true);
 	}
 	
-	@Test(priority = 8,groups= {"sys","int"})
+	@Test(priority = 8,groups= "sys")
 	public void TC_LOGIN_13() throws EncryptedDocumentException, IOException, InterruptedException
 	{
 		hp.clickLogin();
@@ -117,7 +117,7 @@ public class LoginModule extends Baseclass {
 		
 	}
 	
-	@Test(groups={"sys","fn"})
+	@Test(groups="fn")
 	public void TC_LOGIN_15()
 	{
 		hp.clickLogin();
