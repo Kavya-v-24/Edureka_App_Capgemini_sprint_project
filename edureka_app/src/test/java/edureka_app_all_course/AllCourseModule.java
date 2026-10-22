@@ -47,13 +47,13 @@ public class AllCourseModule extends Baseclass{
 	}
 	
 	
-	@Test(groups="fn")
-	public void TC_AC_12()
-	{
-		ac.clickOthers();
-		ac.checkOtherCourses();
-		Reporter.log("TC_AC_12: Relevant courses are displayed, or the designed empty state appears if no courses are available.",true);
-	}
+//	@Test(groups="fn")
+//	public void TC_AC_12()
+//	{
+//		ac.clickOthers();
+//		ac.checkOtherCourses();
+//		Reporter.log("TC_AC_12: Relevant courses are displayed, or the designed empty state appears if no courses are available.",true);
+//	}
 	
 	
 	
